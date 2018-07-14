@@ -1,12 +1,12 @@
 {
   "name": "Start on Heroku: Go",
-  "description": "Roof Tile ",
+  "description": "Go Getting Started Example App",
   "keywords": [
-    "roof",
-    "tile",
+    "getting-started",
+    "go",
     "sample",
     "example"
   ],
-  "website": "https://github.com/celikmustafa89/rooftile",
-  "repository": "https://github.com/celikmustafa89/rooftile"
+  "website": "http://github.com/heroku/go-getting-started",
+  "repository": "http://github.com/heroku/go-getting-started"
 }
