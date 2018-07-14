@@ -5,6 +5,7 @@ import (
 	"log"
 	"math/rand"
 	"net/http"
+	"os"
 	"strconv"
 
 	"github.com/gorilla/mux"
@@ -95,6 +96,7 @@ func main() {
 	r.HandleFunc("/api/books/{id}", updateBook).Methods("PUT")
 	r.HandleFunc("/api/books/{id}", deleteBook).Methods("DELETE")
 
-	log.Fatal(http.ListenAndServe(":5000", nil))
+	// log.Fatal(http.ListenAndServe(":8000", r))
+	log.Fatal(http.ListenAndServe(":"+os.Getenv("PORT"), r))
 
 }
