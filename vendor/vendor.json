@@ -59,9 +59,5 @@
 			"revision": "d627af88ac021317a280d320986282a6dc97549a"
 		}
 	],
-	"rootPath": "github.com/heroku/rooftile",
-	"heroku": {
-        "install" : [ "./..." ],
-        "goVersion": "go1.10"
-         }
+	"rootPath": "github.com/heroku/rooftile"
 }
