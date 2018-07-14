@@ -2,5 +2,9 @@
 	"comment": "",
 	"ignore": "test",
 	"package": [],
-	"rootPath": "github.com/heroku/rooftile"
+	"rootPath": "github.com/celikmustafa89/rooftile",
+    "heroku": {
+        "install" : [ "./..." ],
+        "goVersion": "go1.10.3"
+         }
 }
